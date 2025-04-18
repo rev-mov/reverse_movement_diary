@@ -1,0 +1,105 @@
+* {
+    margin: 4px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+body {
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    min-height:100vh;
+    background:black;
+}
+.container {
+    max-width:fit-content;
+    width: 100%;
+}
+
+.slider-wrapper .image-list {
+display: grid;
+gap: 0px;
+font-size: 0;
+overflow-x:auto;
+grid-template-columns: repeat(1000, 1fr);
+}
+
+.slider-wrapper .image-list .image-item {
+    width: 350px;
+    height: 400px;
+    object-fit:cover;
+    transition: all 0.2s ease;
+
+}
+
+.slider-wrapper .image-list .image-item:hover {
+    scale: 125%;
+    width: 350px;
+    height: 400px;
+    object-fit:contain;
+}
+
+.slider-wrapper2 .image-list2 {
+    display: grid;
+    gap: 0px;
+    font-size: 0;
+    overflow-x:auto;
+    grid-template-columns: repeat(1000, 1fr);
+    }
+    
+    .slider-wrapper2 .image-list2 .image-item {
+        width: 350px;
+        height: 400px;
+        object-fit:cover;
+        transition: all 0.2s ease;
+    
+    }
+    
+    .slider-wrapper2 .image-list2 .image-item:hover {
+        scale: 125%;
+        width: 350px;
+        height: 400px;
+        object-fit:contain;
+    }
+
+    .slider-wrapper3 .image-list3 {
+        display: grid;
+        gap: 0px;
+        font-size: 0;
+        overflow-x:auto;
+        grid-template-columns: repeat(1000, 1fr);
+        }
+        
+        .slider-wrapper3 .image-list3 .image-item {
+            width: 350px;
+            height: 400px;
+            object-fit:cover;
+            transition: all 0.2s ease;
+        
+        }
+        
+        .slider-wrapper3 .image-list3 .image-item:hover {
+            scale: 125%;
+            width: 350px;
+            height: 400px;
+            object-fit:contain;
+        }
+
+.slider-wrapper .image-list .image-cover {
+    width: 100px;
+    height: 200px;
+    object-fit:cover;
+}
+
+
+.slider-wrapper2 .image-list2 .image-cover {
+    width: 100px;
+    height: 200px;
+    object-fit:cover;
+}
+
+.slider-wrapper3 .image-list3 .image-cover {
+    width: 100px;
+    height: 200px;
+    object-fit:cover;
+}
